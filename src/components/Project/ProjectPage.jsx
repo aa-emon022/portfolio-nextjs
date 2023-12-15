@@ -14,7 +14,8 @@ export default function ProjectPage() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <>   <div className="pt-[15rem] lg:pt-[17rem] flex flex-wrap justify-center pb-[7rem]" style={gradientStyle} >
+    <>   <div className="pt-[10rem] lg:pt-[17rem] flex flex-wrap justify-center pb-[7rem]" style={gradientStyle} >
+    <h1 className="text-centen text-white md:text-[1.5rem] pb-[3rem]">Unveiling the Tapestry of My Project</h1>
       <div className="flex flex-wrap justify-center px-[1rem] md:px-0  w-full md:w-full gap-[4rem]" >
         <div className="flex flex-col flex-wrap  pb-5 bg-cyan-500 shadow-lg shadow-cyan-500/50 drop-shadow-md  hover:scale-105" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
@@ -64,41 +65,7 @@ export default function ProjectPage() {
             </div>
           </div>
 
-          <div className="flex flex-col flex-wrap  rounded-md pb-5 bg-cyan-500 shadow-lg shadow-cyan-500/50 drop-shadow-md hover:scale-105" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-            <Image
-              src={
-                "https://thumbs.dreamstime.com/b/design-can-be-used-as-logo-icon-as-complement-to-design-people-testimonial-logo-icon-design-128391492.jpg"
-              }
-              width={500}
-              height={300}
-              className="h-[20rem] object-cover brightness-75"
-            />
-
- <h1 className="uppercase font-bold text-[#000000] pl-[.3rem]">React-Next js Projects: <span className="text-[#323223]">Current Projects </span></h1>
-            <div className="bg-[#101820FF] ">
-             
-
-             
-                
-
-                {/* /////////////// */}
-                <div className="flex flex-wrap gap-8 justify-center items-center">
-                  
-
-                  <div className="  ">
-                    <h1 className="text-[#F2AA4CFF] text-[1.3rem] ">Git Link</h1>
-                    <Link href={"https://github.com/aa-emon022/React.js-small-project.git"}>
-                      <button className="text-[#C3BBB3] hover:text-green-600">Visited Pro. Code</button>
-                    </Link>
-                  </div>
-                
-
-                
-              </div>
-            </div>
-          </div>
+         
 
 
           <div className="flex flex-col flex-wrap  rounded-md pb-5 bg-cyan-500 shadow-lg shadow-cyan-500/50 drop-shadow-md hover:scale-105" data-aos="flip-left"
@@ -324,6 +291,41 @@ export default function ProjectPage() {
               </div>
             </div>
         </div>
+        <div className="flex flex-col flex-wrap  rounded-md pb-5 bg-cyan-500 shadow-lg shadow-cyan-500/50 drop-shadow-md hover:scale-105" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+            <Image
+              src={
+                "https://thumbs.dreamstime.com/b/design-can-be-used-as-logo-icon-as-complement-to-design-people-testimonial-logo-icon-design-128391492.jpg"
+              }
+              width={500}
+              height={300}
+              className="h-[20rem] object-cover brightness-75"
+            />
+
+ <h1 className="uppercase font-bold text-[#000000] pl-[.3rem]">React-Next js Projects: <span className="text-[#323223]">Current Projects </span></h1>
+            <div className="bg-[#101820FF] ">
+             
+
+             
+                
+
+                {/* /////////////// */}
+                <div className="flex flex-wrap gap-8 justify-center items-center">
+                  
+
+                  <div className="  ">
+                    <h1 className="text-[#F2AA4CFF] text-[1.3rem] ">Git Link</h1>
+                    <Link href={"https://github.com/aa-emon022/React.js-small-project.git"}>
+                      <button className="text-[#C3BBB3] hover:text-green-600">Visited Pro. Code</button>
+                    </Link>
+                  </div>
+                
+
+                
+              </div>
+            </div>
+          </div>
       </div>
       
     </div>

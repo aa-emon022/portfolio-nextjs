@@ -34,7 +34,7 @@ export default function Contact() {
           </div>
         </div>
         <div className="" data-aos="fade-left">
-          <iframe width="480" height="600" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=480&amp;height=600&amp;hl=en&amp;q=badda,dhaka,bangladesh+(Emon)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe>
+          <iframe  className='sm:w-[33rem] md:w-[38rem] lg:w-[42rem] h-[40rem]' frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=480&amp;height=600&amp;hl=en&amp;q=badda,dhaka,bangladesh+(Emon)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population calculator map</a></iframe>
         </div>
       </div>
     </section>
